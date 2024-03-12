@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Cat Photo App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1>CatPhoto App</h1>
+        <section>
+            <h2>Cat Photos</h2>
+            <p>See more <a href="#"> cat photos </a> in our gallery.</p>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                    alt="a cat lying down and facing towards you">
+            </figure>
+        </section>
+        <section>
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+            <ul>
+                <li>cat nap</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                    alt="a delicious slice of lasagna">
+                <figcaption>Cats <em>love lasagna</em></figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Top 3 things cats hate:</h2>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="A group of lovely cats">
+                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <form action="/submit-url">
+                <h2>Cat Form</h2>
+
+                <fieldset>
+                    <legend> Is your cat an indoor or outdoor cat? </legend>
+                    <input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked>
+                    <label for="indoor"> Indoor </label>
+                    <input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor">
+                    <label for="outdoor"> Outdoor</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What's your cat's personality?</legend>
+                    <input type="checkbox" id="loving" name="personality" value="loving" checked>
+                    <label for="loving">Loving</label>
+                    <input type="checkbox" id="lazy" name="personality" value="lazy">
+                    <label for="lazy">Lazy</label>
+                    <input type="checkbox" id="energetic" name="personality" value="energetic">
+                    <label for="energetic"> Energetic</label>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <input type="text" name="cat-photo-url" placeholder="cat photo URL" required>
+            <button value="submit-url">Submit</button>
+        </section>
+        <footer>
+            <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+        </footer>
+    </main>
+</body>
+
+</html>
